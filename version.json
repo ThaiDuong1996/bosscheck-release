@@ -1,20 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "released": "2026-09-02",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.0/BossCheck_v1.0.0.exe",
-  "sha256": "6e8ff692e589d788db64ca233d52a40ccdc0ef793fd39199016fe309edb6e6e0",
-  "size": 71778550,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.1/BossCheck_v1.0.1.exe",
+  "sha256": "bd8b758dc27fc3598366a7516e99495b8c53591366f7f047a265955bde4f7d4a",
+  "size": 71776331,
   "notes": [
-    "Giết một con boss không còn làm con boss khác bị đánh dấu đã chết. Lỗi này chỉ xảy ra với cặp Vương Tá và Tây Vương Tà Độc.",
-    "Boss đã bị giết không còn kẹt ở trạng thái 🟢 còn sống.",
-    "Một lần giết chỉ được tính một lần. Trước đây có trường hợp bị đếm hai.",
-    "Bảng checklist không còn ô trống lạ. Có 10 điểm toạ độ bị lỗi trên 5 map (Thiên Vương, Đường Môn, Nga My, Thuý Yên, Phục Lưu Động), nay tự dọn khi mở app.",
-    "Các từ khoá nhận biết boss bị giết thêm ở bản trước (chết, đã chết, bị tiêu diệt, bị diệt) nay thực sự có tác dụng. Trước đây file cấu hình cũ nằm cạnh exe đè lên bản mới nên chúng không bao giờ tới được máy khách.",
-    "Ứng dụng tự kiểm tra bản mới khi mở lên và báo cho bạn. Có nút ⬇ Kiểm tra cập nhật để bấm bất cứ lúc nào.",
-    "Cập nhật ngay trong app: bấm một nút là tải về, tự thay và mở lại. Dữ liệu của bạn (cấu hình, điểm danh, voucher, quả) được giữ nguyên.",
-    "Số hiệu phiên bản hiện ở tiêu đề cửa sổ, góc phải giao diện, và trong Properties của file exe.",
-    "Tên file tải về nay kèm số hiệu: BossCheck_v1.0.0.exe.",
-    "Ứng dụng nhẹ hơn, khởi động nhanh hơn."
+    "Phần Có gì mới trong hộp thoại cập nhật không còn bị cắt cụt giữa câu. Trước đây các dòng dài bị ngắt ngang nên đọc không hiểu.",
+    "Chạy thử trọn vòng cập nhật tự động lần đầu."
   ],
   "mandatory": false
 }
