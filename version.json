@@ -1,12 +1,11 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "released": "2026-09-02",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.2/BossCheck_v1.0.2.exe",
-  "sha256": "421a1fe238f6260920847daff8f37c210bca4fba5fa5f450fca6a8a228c4f7ac",
-  "size": 71783654,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.3/BossCheck_v1.0.3.exe",
+  "sha256": "09e9b6f81b3ca8408fecfbe0fe3c6e3ae810c41094e01243efe3bf262d58a533",
+  "size": 71783160,
   "notes": [
-    "Sửa lỗi cập nhật tự động không thay được file: bấm cập nhật xong, khởi động lại vẫn ra bản cũ và bị hỏi lại.",
-    "Nếu lần cập nhật nào không thành công, ứng dụng sẽ báo rõ lý do thay vì im lặng."
+    "Bản kiểm chứng cơ chế cập nhật tự động đã sửa ở 1.0.2."
   ],
   "mandatory": false
 }
