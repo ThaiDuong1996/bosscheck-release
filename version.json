@@ -1,12 +1,12 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "released": "2026-09-02",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.1/BossCheck_v1.0.1.exe",
-  "sha256": "bd8b758dc27fc3598366a7516e99495b8c53591366f7f047a265955bde4f7d4a",
-  "size": 71776331,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.2/BossCheck_v1.0.2.exe",
+  "sha256": "421a1fe238f6260920847daff8f37c210bca4fba5fa5f450fca6a8a228c4f7ac",
+  "size": 71783654,
   "notes": [
-    "Phần Có gì mới trong hộp thoại cập nhật không còn bị cắt cụt giữa câu. Trước đây các dòng dài bị ngắt ngang nên đọc không hiểu.",
-    "Chạy thử trọn vòng cập nhật tự động lần đầu."
+    "Sửa lỗi cập nhật tự động không thay được file: bấm cập nhật xong, khởi động lại vẫn ra bản cũ và bị hỏi lại.",
+    "Nếu lần cập nhật nào không thành công, ứng dụng sẽ báo rõ lý do thay vì im lặng."
   ],
   "mandatory": false
 }
