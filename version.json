@@ -1,11 +1,11 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.5",
   "released": "2026-09-02",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.3/BossCheck_v1.0.3.exe",
-  "sha256": "09e9b6f81b3ca8408fecfbe0fe3c6e3ae810c41094e01243efe3bf262d58a533",
-  "size": 71783160,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.5/BossCheck_v1.0.5.exe",
+  "sha256": "adfebb58ab015cc69424472a7bafa5c73030e870018df7c635cbc589d92e3dce",
+  "size": 71784298,
   "notes": [
-    "Bản kiểm chứng cơ chế cập nhật tự động đã sửa ở 1.0.2."
+    "Bản kiểm chứng cuối: cập nhật từ 1.0.4 lên 1.0.5 phải trót lọt, mở lại được và giữ nguyên toàn bộ dữ liệu."
   ],
   "mandatory": false
 }
