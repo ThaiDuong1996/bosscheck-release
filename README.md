@@ -14,7 +14,7 @@ Bản cài đặt nằm ở mục [Releases](../../releases).
 Chạy ở thư mục dự án:
 
 ```
-python build_merged.py --bump patch
+python build.py --bump patch
 python release.py
 ```
 
