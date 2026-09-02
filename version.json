@@ -1,11 +1,12 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "released": "2026-09-02",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.5/BossCheck_v1.0.5.exe",
-  "sha256": "adfebb58ab015cc69424472a7bafa5c73030e870018df7c635cbc589d92e3dce",
-  "size": 71784298,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.6/BossCheck_v1.0.6.exe",
+  "sha256": "bac0bd386144a287224578ac7837f83565268499f765c35130fe46a4bdf15b07",
+  "size": 71784707,
   "notes": [
-    "Bản kiểm chứng cuối: cập nhật từ 1.0.4 lên 1.0.5 phải trót lọt, mở lại được và giữ nguyên toàn bộ dữ liệu."
+    "Hộp thoại ⚙ G-Sheets nay nhắc rõ cách triển khai Apps Script cho đúng. Chọn nhầm Bản triển khai mới sẽ sinh ra một địa chỉ khác, khiến sheet không nhận được gì mà ứng dụng vẫn báo đồng bộ thành công.",
+    "Bảng Voucher làm mới nhanh hơn một chút, bỏ được một lượt đọc dữ liệu thừa."
   ],
   "mandatory": false
 }
