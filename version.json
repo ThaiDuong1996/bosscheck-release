@@ -1,18 +1,13 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "released": "2026-09-03",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.11/BossCheck_v1.0.11.exe",
-  "sha256": "e88762cc7d025210dc739f25ddc0a5ca5dfabfee695f61215467831f9007b3c5",
-  "size": 71826477,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.12/BossCheck_v1.0.12.exe",
+  "sha256": "1e898712cdaef0421fde429b13e4c94ef4720d63d90b98b60370516f74e1d833",
+  "size": 71826871,
   "notes": [
-    "Bỏ hẳn ô tick trong hộp thoại 👥 Danh Sách Bang. Trước đây ô đó ghi \"Chỉ ghi nhận Quả Huy Hoàng\" nhưng thực tế điều khiển cả tab Điểm Danh, và sửa danh sách xong quên bật lại là bảng lọc sai mà không có dấu hiệu nào. Nay chỉ còn danh sách, và hộp thoại nói thẳng nó đang áp dụng cho tab nào.",
-    "Danh sách áp dụng cho Quả Huy Hoàng và Điểm Danh. Tab Voucher Bang không lọc nữa vì thông báo nộp voucher vốn chỉ đi trong kênh Bang, người ngoài bang không bao giờ xuất hiện ở đó — lọc thêm chỉ giấu nhầm thành viên nào chưa kịp thêm tên vào danh sách.",
-    "Người ngoài danh sách nay vẫn được ghi lại đầy đủ, chỉ là không hiện trên bảng. Trước đây họ bị bỏ ngay lúc ghi, nên gõ thiếu một cái tên là mất vĩnh viễn dữ liệu của người đó; giờ chỉ cần thêm tên vào là số liệu cũ hiện lại đủ. Để trống danh sách thì hiện tất cả mọi người.",
-    "Lưu danh sách xong cả ba bảng được vẽ lại ngay. Trước đây phải mở lại ứng dụng thì hai bảng kia mới cập nhật.",
-    "Chờ lâu hơn trước khi báo lỗi. Một đợt hái quả đông người khiến Google xử lý quá 10 giây, ứng dụng bỏ cuộc giữa chừng và vài chục dòng không lên được sheet.",
-    "Báo lỗi nói rõ phải sửa ở đâu. Trước đây chỉ hiện \"Lỗi HTTP: 401\" hoặc \"Lỗi không xác định\" — nay chỉ thẳng vào ô cần sửa trong phần Triển khai của Apps Script, và khi Google trả lời chậm thì nói rõ dữ liệu vẫn còn nguyên trong máy, bấm Đồng Bộ lại không bị đếm hai lần.",
-    "Nhận thêm vài dạng thông báo nộp voucher khác của máy chủ. Tuỳ máy chủ, câu thông báo có thể đi kèm tên người quản lý hoạt động bang hội thay vì tiền tố quen thuộc; trước đây những dạng đó bị bỏ qua hoàn toàn mà không báo gì.",
-    "File cấu hình nay giữ lại một bản trước đó. Dán nhầm địa chỉ webhook hay sửa hỏng cấu hình thì còn đường khôi phục, thay vì mất luôn giá trị cũ."
+    "Sửa lỗi hộp thoại \"Failed to load Python DLL\" hiện lên ngay sau khi cập nhật xong. Ứng dụng vẫn lên bản mới bình thường và không mất dữ liệu gì, nhưng hộp lỗi đó làm nhiều người tưởng hỏng. Nguyên nhân: bước thay file chạy trước khi bản cũ kịp đóng hẳn.",
+    "Riêng lần cập nhật LÊN bản này thì hộp lỗi đó vẫn có thể xuất hiện một lần cuối, vì bước thay file là do bản cũ thực hiện. Bấm OK rồi mở lại ứng dụng là xong — từ bản này trở đi sẽ không còn nữa.",
+    "Cập nhật xong không còn để sót một file .bak nặng gần 70 MB nằm cạnh ứng dụng."
   ],
   "mandatory": false
 }
