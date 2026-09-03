@@ -1,13 +1,21 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.16",
   "released": "2026-09-03",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.12/BossCheck_v1.0.12.exe",
-  "sha256": "1e898712cdaef0421fde429b13e4c94ef4720d63d90b98b60370516f74e1d833",
-  "size": 71826871,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.16/BossCheck_v1.0.16.exe",
+  "sha256": "7f8b5b23249bac07ff24917de11ce2446504a6668175538373cef38507cdc566",
+  "size": 71866974,
   "notes": [
-    "Sửa lỗi hộp thoại \"Failed to load Python DLL\" hiện lên ngay sau khi cập nhật xong. Ứng dụng vẫn lên bản mới bình thường và không mất dữ liệu gì, nhưng hộp lỗi đó làm nhiều người tưởng hỏng. Nguyên nhân: bước thay file chạy trước khi bản cũ kịp đóng hẳn.",
-    "Riêng lần cập nhật LÊN bản này thì hộp lỗi đó vẫn có thể xuất hiện một lần cuối, vì bước thay file là do bản cũ thực hiện. Bấm OK rồi mở lại ứng dụng là xong — từ bản này trở đi sẽ không còn nữa.",
-    "Cập nhật xong không còn để sót một file .bak nặng gần 70 MB nằm cạnh ứng dụng."
+    "Tên nhân vật trước đây bị đọc sai hoàn toàn: ứng dụng lấy nhầm tên bang làm tên người (ZzTheMenzZ đọc thành àngKim Vip_PK), ai không có bang thì mất hai ký tự đầu. Tên sai thì không khớp nổi Danh Sách Bang, nên bấm Điểm Danh luôn báo không tìm thấy ai.",
+    "Khoảng cách trước đây đo từ vị trí cũ của bạn. Ứng dụng chỉ biết bạn ở đâu khi nhân vật đi bộ, nên hễ dịch chuyển hay bay tới là nó vẫn tưởng bạn đứng chỗ cũ — người vây quanh bị coi là đứng xa, nới bán kính cũng vô ích.",
+    "Chức vụ và đội (Team 1 / Team 2) nay lấy thẳng từ dữ liệu máy chủ. Cột Chức Vụ trong bảng trước đây luôn trống.",
+    "Bỏ hẳn việc quét bộ nhớ máy ảo. Một vòng quét mất hơn 4 phút, ngốn hết công suất máy mà chỉ nhặt về ký tự rác. Nay không quét gì nữa, máy nhẹ hẳn.",
+    "NPC tự động bị loại, không phải khai báo gì.",
+    "Chỉ tính người còn đứng đó thật. Ai vừa bỏ đi là rơi khỏi danh sách sau ba giây, không còn chuyện ghi nhầm người đã rời từ lâu.",
+    "Người chưa có tên trong Danh Sách Bang vẫn được ghi lại đầy đủ, chỉ là không hiện trên bảng. Trước đây họ bị bỏ ngay lúc ghi nên thêm tên vào sau cũng không lấy lại được gì.",
+    "Hộp thoại nói rõ ghi được bao nhiêu người, bao nhiêu người có tên trong Danh Sách Bang, và còn ai đứng quanh mà chưa có tên trong danh sách.",
+    "Thêm ban_kinh_diem_danh trong chat_config.json. Mặc định 1.5 — bằng đúng vòng mà bảng \"Người chơi xung quanh\" trong game dùng. Số càng lớn vòng càng rộng; để 0 là tính hết mọi người trong tầm nhìn.",
+    "Sửa số rồi lưu là dùng được ngay ở lần bấm kế tiếp, không cần tắt mở lại ứng dụng. Và chỉnh sửa của bạn không còn bị ghi đè khi ứng dụng lưu cấu hình.",
+    "Thiết lập mới nay tự xuất hiện trong chat_config.json ngay lần chạy đầu. Trước đây khoá mới chỉ có trong bản cài lần đầu, ai đã dùng bản cũ thì mở file ra tìm không bao giờ thấy."
   ],
   "mandatory": false
 }
