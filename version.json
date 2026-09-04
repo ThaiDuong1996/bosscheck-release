@@ -1,15 +1,12 @@
 {
-  "version": "1.0.20",
+  "version": "1.1.0",
   "released": "2026-09-05",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.20/BossCheck_v1.0.20.exe",
-  "sha256": "ccb8b218a53ecfa90169643e6eb99c7fddbdd0d553b88ef3acd3f2b783b9ef63",
-  "size": 71898456,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.1.0/BossCheck_v1.1.0.exe",
+  "sha256": "448342b6b3e78c0231f02c33dce6f1fc030ca3aae860674e512fc130ff19c572",
+  "size": 71895137,
   "notes": [
-    "Hạn sử dụng nay tính tới từng giây. Trước đây chỉ tính theo ngày, nên key dùng thử cấp theo phút hoặc theo giờ đều hiện ra là \"Còn 0 ngày sử dụng\" — nhìn như đã hỏng trong khi vẫn còn mấy tiếng. Nay hiện đúng 04:30 nữa, và hạn trên hệ thống cũng mang theo giờ phút giây.",
-    "Gia hạn có hiệu lực nhanh hơn ba lần. App hỏi lại hệ thống mỗi 10 phút thay vì 30 phút, và hỏi luôn lúc mở app. Vừa gia hạn xong là dùng được, không phải đợi hay khởi động lại.",
-    "Thông báo bản quyền nói đúng bệnh. Trước đây nhiều tình huống khác hẳn nhau đều hiện chung một câu \"Chưa cấp phép\", hoặc bảo bạn đi kiểm tra mạng trong khi mạng chẳng sao. Nay nói rõ: hết hạn từ bao giờ, bị thu hồi, hay thật sự là không kết nối được.",
-    "Sửa lỗi hạn sử dụng hiển thị sai. Một số máy hiện hạn tới năm 2099 do lỗi đọc dữ liệu, không phản ánh đúng gói đã mua.",
-    "Vẫn giữ nguyên: mất mạng tới 7 ngày app vẫn chạy bình thường. Rớt wifi hay nhà mạng chập chờn không làm bạn mất buổi chơi."
+    "Sửa một số lỗi vặt và cải thiện độ ổn định.",
+    "Hạn sử dụng hiển thị chính xác hơn, gia hạn có hiệu lực nhanh hơn."
   ],
   "mandatory": false
 }
