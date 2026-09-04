@@ -1,15 +1,15 @@
 {
-  "version": "1.0.19",
-  "released": "2026-09-04",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.19/BossCheck_v1.0.19.exe",
-  "sha256": "4dcee3df86db0355faba111f3674a52493a41390d32a148610e35f18f6150aa9",
-  "size": 71893724,
+  "version": "1.0.20",
+  "released": "2026-09-05",
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.20/BossCheck_v1.0.20.exe",
+  "sha256": "ccb8b218a53ecfa90169643e6eb99c7fddbdd0d553b88ef3acd3f2b783b9ef63",
+  "size": 71898456,
   "notes": [
-    "Sửa bộ đếm ngược quả không chạy. Tính năng có từ bản trước nhưng không hề hoạt động — dòng đếm luôn nằm im dù chat đầy thông báo hạt. Nay chạy đúng, và nhận thêm dạng thông báo mới của bản cập nhật game: \"đã xuất hiện tại (Trung)Sinh Tử Chiến(1). hạt giống 2 phút sau sẽ chín\". Ứng dụng đọc số phút từ chính câu thông báo và không phụ thuộc vào tên địa điểm, nên máy chủ nào cũng chạy.",
-    "Dòng đếm hiện to giữa tab và luôn có mặt: lúc chưa tới đợt thì nó nói rõ đang chờ, thay vì để trống khiến không biết tính năng có sống hay không.",
-    "Bảng xếp hạng hái quả có thêm cột 🌟 Hoàng Kim. Bản cập nhật game thêm Quả Hoàng Kim — quả hiếm rơi ra từ chính đợt hạt cũ: một đợt có cả trăm lượt Quả Huy Hoàng nhưng chỉ vài lượt Hoàng Kim. Gộp chung một cột thì không nhìn ra ai vớ được quả hiếm. Cột này để trống khi bằng 0 cho đỡ rối mắt, và áp dụng được ngay cho cả dữ liệu cũ vì tên quả vốn đã lưu trong từng bản ghi.",
-    "Ứng dụng tự học boss mới. Máy chủ thêm boss theo từng đợt cập nhật, mà map và toạ độ thì giữ nguyên — chỉ có tên là mới. Trước đây tên nào không có sẵn trong danh mục thì boss đó bị bỏ qua trong im lặng: đợt 20:00 ngày 04/09 máy chủ báo 25 con, bảng chỉ hiện 20. Nay gặp tên lạ ứng dụng ghi nhớ luôn và tính ngay từ lần đầu, không phải chờ ai cập nhật danh mục. Tên học được lưu riêng nên không bị mất khi cập nhật ứng dụng.",
-    "Bổ sung sẵn 5 boss vào danh mục: Diệu Khiết, Huyền Hư, Văn Thư, Độc Nha, Đường Khinh."
+    "Hạn sử dụng nay tính tới từng giây. Trước đây chỉ tính theo ngày, nên key dùng thử cấp theo phút hoặc theo giờ đều hiện ra là \"Còn 0 ngày sử dụng\" — nhìn như đã hỏng trong khi vẫn còn mấy tiếng. Nay hiện đúng 04:30 nữa, và hạn trên hệ thống cũng mang theo giờ phút giây.",
+    "Gia hạn có hiệu lực nhanh hơn ba lần. App hỏi lại hệ thống mỗi 10 phút thay vì 30 phút, và hỏi luôn lúc mở app. Vừa gia hạn xong là dùng được, không phải đợi hay khởi động lại.",
+    "Thông báo bản quyền nói đúng bệnh. Trước đây nhiều tình huống khác hẳn nhau đều hiện chung một câu \"Chưa cấp phép\", hoặc bảo bạn đi kiểm tra mạng trong khi mạng chẳng sao. Nay nói rõ: hết hạn từ bao giờ, bị thu hồi, hay thật sự là không kết nối được.",
+    "Sửa lỗi hạn sử dụng hiển thị sai. Một số máy hiện hạn tới năm 2099 do lỗi đọc dữ liệu, không phản ánh đúng gói đã mua.",
+    "Vẫn giữ nguyên: mất mạng tới 7 ngày app vẫn chạy bình thường. Rớt wifi hay nhà mạng chập chờn không làm bạn mất buổi chơi."
   ],
   "mandatory": false
 }
