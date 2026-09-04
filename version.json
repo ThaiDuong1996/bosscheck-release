@@ -1,21 +1,14 @@
 {
-  "version": "1.0.16",
-  "released": "2026-09-03",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.16/BossCheck_v1.0.16.exe",
-  "sha256": "7f8b5b23249bac07ff24917de11ce2446504a6668175538373cef38507cdc566",
-  "size": 71866974,
+  "version": "1.0.17",
+  "released": "2026-09-04",
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.0.17/BossCheck_v1.0.17.exe",
+  "sha256": "76d0a58b9dd0fdd04f96daab4ba651da2a2a7b8dcf407e89b69516fe9071e5ed",
+  "size": 71879098,
   "notes": [
-    "Tên nhân vật trước đây bị đọc sai hoàn toàn: ứng dụng lấy nhầm tên bang làm tên người (ZzTheMenzZ đọc thành àngKim Vip_PK), ai không có bang thì mất hai ký tự đầu. Tên sai thì không khớp nổi Danh Sách Bang, nên bấm Điểm Danh luôn báo không tìm thấy ai.",
-    "Khoảng cách trước đây đo từ vị trí cũ của bạn. Ứng dụng chỉ biết bạn ở đâu khi nhân vật đi bộ, nên hễ dịch chuyển hay bay tới là nó vẫn tưởng bạn đứng chỗ cũ — người vây quanh bị coi là đứng xa, nới bán kính cũng vô ích.",
-    "Chức vụ và đội (Team 1 / Team 2) nay lấy thẳng từ dữ liệu máy chủ. Cột Chức Vụ trong bảng trước đây luôn trống.",
-    "Bỏ hẳn việc quét bộ nhớ máy ảo. Một vòng quét mất hơn 4 phút, ngốn hết công suất máy mà chỉ nhặt về ký tự rác. Nay không quét gì nữa, máy nhẹ hẳn.",
-    "NPC tự động bị loại, không phải khai báo gì.",
-    "Chỉ tính người còn đứng đó thật. Ai vừa bỏ đi là rơi khỏi danh sách sau ba giây, không còn chuyện ghi nhầm người đã rời từ lâu.",
-    "Người chưa có tên trong Danh Sách Bang vẫn được ghi lại đầy đủ, chỉ là không hiện trên bảng. Trước đây họ bị bỏ ngay lúc ghi nên thêm tên vào sau cũng không lấy lại được gì.",
-    "Hộp thoại nói rõ ghi được bao nhiêu người, bao nhiêu người có tên trong Danh Sách Bang, và còn ai đứng quanh mà chưa có tên trong danh sách.",
-    "Thêm ban_kinh_diem_danh trong chat_config.json. Mặc định 1.5 — bằng đúng vòng mà bảng \"Người chơi xung quanh\" trong game dùng. Số càng lớn vòng càng rộng; để 0 là tính hết mọi người trong tầm nhìn.",
-    "Sửa số rồi lưu là dùng được ngay ở lần bấm kế tiếp, không cần tắt mở lại ứng dụng. Và chỉnh sửa của bạn không còn bị ghi đè khi ứng dụng lưu cấu hình.",
-    "Thiết lập mới nay tự xuất hiện trong chat_config.json ngay lần chạy đầu. Trước đây khoá mới chỉ có trong bản cài lần đầu, ai đã dùng bản cũ thì mở file ra tìm không bao giờ thấy."
+    "Đếm ngược quả chín. Khi máy chủ báo [Hạt Huy Hoàng] đã xuất hiện, tab Quả Huy Hoàng hiện ngay dòng 🌟 Quả chín sau 01:47 đếm lùi từng giây. Đến lúc máy chủ báo quả đã chín thì đổi thành 🌟 QUẢ ĐÃ CHÍN — vào hái! rồi tự tắt sau ba phút. Mốc chín là do máy chủ báo, ứng dụng không tự đoán — hết giờ mà chưa nghe máy chủ thì nó nói \"sắp chín\" chứ không tuyên bố bừa.",
+    "Nhật ký ghi thêm số liệu của tab Điểm Danh sau mỗi 10 phút: nhận được bao nhiêu lượt người vào tầm nhìn, bao nhiêu nhịp vị trí, và đang theo dõi bao nhiêu người. Khi báo lỗi \"không điểm danh được ai\", gửi kèm file nhật ký là đủ để tìm ra nguyên nhân mà không phải đoán.",
+    "Sửa lỗi cột Title Bang trong bảng Điểm Danh hiện chữ méo, kiểu LầuXanh ThÃ nh viÃªn thay vì LầuXanh Thành viên. Máy chủ gửi chức vụ khi đúng khi hỏng — cùng một chữ \"Thành viên\" mà lúc được lúc không. Nay ứng dụng tự nắn lại trước khi ghi, nên bảng và cả dữ liệu đẩy lên Google Sheets đều sạch.",
+    "Bỏ nút 👥 Danh Sách Bang ở tab Điểm Danh cho đỡ trùng — nó mở đúng cùng một hộp thoại với nút ở tab Quả Huy Hoàng. Danh sách vẫn áp cho cả hai tab như cũ, chỉ là mở từ một chỗ duy nhất."
   ],
   "mandatory": false
 }
