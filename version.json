@@ -1,11 +1,11 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "released": "2026-09-05",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.1.1/BossCheck_v1.1.1.exe",
-  "sha256": "9621546b0dda8eaae5b5f5382e0f9a219c1a9548594adc0cd7b6950f3be27058",
-  "size": 71904105,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.1.2/BossCheck_v1.1.2.exe",
+  "sha256": "f5d52d6d6a7c7da185a1f247fc85a9caa98f626a2225ab3cfacb54a8924f5fe3",
+  "size": 71903321,
   "notes": [
-    "Sửa lỗi key mới cấp không dùng được. Máy nào từng đổi mã nhận diện thì app đọc nhầm sang bản ghi cũ, nên key vừa gia hạn vẫn báo hết hạn.",
+    "Gia hạn có hiệu lực nhanh hơn nữa: app hỏi lại hệ thống mỗi 3 phút.",
     "Sửa một số lỗi vặt."
   ],
   "mandatory": false
