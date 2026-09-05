@@ -1,11 +1,12 @@
 {
-  "version": "1.1.2",
+  "version": "1.2.0",
   "released": "2026-09-05",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.1.2/BossCheck_v1.1.2.exe",
-  "sha256": "f5d52d6d6a7c7da185a1f247fc85a9caa98f626a2225ab3cfacb54a8924f5fe3",
-  "size": 71903321,
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.2.0/BossCheck_v1.2.0.exe",
+  "sha256": "aea572ebd9630410950a27c30ccbe875b9f8ca60f46d8f049158ce22902abb42",
+  "size": 71903498,
   "notes": [
-    "Gia hạn có hiệu lực nhanh hơn nữa: app hỏi lại hệ thống mỗi 3 phút.",
+    "Thêm bộ đếm tổng Quả Hoàng Kim ở tab Quả Huy Hoàng.",
+    "Tối ưu giao diện.",
     "Sửa một số lỗi vặt."
   ],
   "mandatory": false
