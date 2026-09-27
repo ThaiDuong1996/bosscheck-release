@@ -1,14 +1,12 @@
 {
-  "version": "1.3.0",
-  "released": "2026-09-14",
-  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.3.0/BossCheck_v1.3.0.exe",
-  "sha256": "3f385f4118434783f845e1a558b4801952ee71c1d472cb9ec6ca0e2deb657930",
-  "size": 79118391,
+  "version": "1.3.1",
+  "released": "2026-09-27",
+  "url": "https://github.com/ThaiDuong1996/bosscheck-release/releases/download/v1.3.1/BossCheck_v1.3.1.exe",
+  "sha256": "e1d133639aa7d0e6ccadd18d8d6a1d1b1efae2dce9edd5f796742fccac430ea1",
+  "size": 79229005,
   "notes": [
-    "Thêm tab 🚢 Phong Lăng Độ để check boss PLD, có nút Bắt Đầu / Tạm Dừng riêng, không phụ thuộc tab Boss Hoàng Kim.",
-    "Boss chính PLD luôn ở Điểm 3: báo khi xuất hiện và khi bị giết, kèm tên người giết.",
-    "5 boss phụ PLD ra ngẫu nhiên ở 9 điểm còn lại: tab báo boss phụ ra ở điểm nào, có sơ đồ 10 điểm để dễ chạy.",
-    "Lưu ý: khi boss phụ PLD chết, máy chủ không báo vị trí, nên app không check được boss phụ chết ở điểm nào. Ô \"BOSS PHỤ CÒN\" chỉ đếm số boss phụ còn lại (ví dụ 3/5). Muốn biết điểm nào còn boss, bạn tự chạy tới kiểm tra."
+    "Sửa lỗi tab 🌟 Quả Huy Hoàng đếm dư: một lần hái quả của người trong bang đôi khi bị tính thành 2 quả.",
+    "Lưu ý: số quả đã bị đếm dư ở những ngày trước không tự sửa lại."
   ],
   "mandatory": false
 }
