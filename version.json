@@ -1,15 +1,17 @@
 {
-  "version": "1.4.1",
-  "released": "2026-10-03",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.4.1.exe",
-  "sha256": "6648944e0449e4d0e417237628623624869507f04aacaf81edc3c61aa00f2d2d",
-  "size": 79325955,
+  "version": "1.5.1",
+  "released": "2026-10-04",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.1.exe",
+  "sha256": "949b62fd0ed359be17118069baf71796c62f441dc85be62d74e7e8d9f8ed4b1f",
+  "size": 79583123,
   "notes": [
-    "Hệ thống key chuyển sang máy chủ mới, nhanh và ổn định hơn. Không phải nhập lại key: máy đang dùng được cập nhật xong là vào thẳng.",
-    "Gia hạn, khoá hay mở khoá có hiệu lực trong tối đa 3 phút. Mất mạng tạm thời thì app vẫn chạy tiếp, không bị đẩy ra.",
-    "Lần đầu mở bản này sẽ hiện Điều khoản sử dụng, bấm đồng ý một lần là xong.",
-    "Dòng hạn sử dụng trên cửa sổ hiện rõ ngày giờ hết hạn và thời gian còn lại.",
-    "Bỏ tab 📋 Điểm Danh. Chức năng điểm danh nay nằm ở bản Bang Hội Plus; cần dùng thì liên hệ Zalo 0982 0135 94. Dữ liệu điểm danh cũ trên máy vẫn được giữ nguyên."
+    "Chọn được MuMu và MEmu, không chỉ LDPlayer: nút 🖥 Chọn máy ảo liệt kê cả máy MuMu / MEmu đang chạy (có báo đã bật Quyền root chưa). Máy MuMu phải bật Quyền root trong cài đặt của máy đó. Ai đang dùng LDPlayer không phải chọn lại.",
+    "Chạy LDPlayer cùng MuMu trên một máy không còn bị bắt nhầm sang máy MuMu.",
+    "Nút 👥 Danh sách bang chuyển lên thanh trên cùng, kèm số thành viên.",
+    "Tự cập nhật danh sách bang: 👥 Danh sách bang → 🖥 Chọn máy tự đồng bộ → chọn máy có acc đang ở trong bang và đang vào game. App tự hỏi danh sách và nhật ký bang 5 phút một lần (thêm lúc 11:58 và 19:28), không cần mở cửa sổ Bang Hội. Máy này có thể trùng hoặc khác máy đang check boss.",
+    "Danh sách bang có hiệu lực theo giờ: mỗi lần Lưu (hoặc tự cập nhật) ghi một mốc, người vào bang không bị tính quả nhặt trước lúc vào, người rời bang vẫn giữ quả của thời gian còn trong bang. Xem và sửa giờ các mốc ở 🕘 Các lần Lưu trong hộp danh sách bang.",
+    "Hộp danh sách bang có nút 🎮 Lấy từ game: mở cửa sổ Bang Hội trong game là app lấy đủ tên và cấp cả bang, sao chép hoặc xuất Excel được.",
+    "Lưu ý: đã chọn MuMu / MEmu thì đừng quay về bản 1.4.1 trở xuống — bản cũ không đọc được lựa chọn này và sẽ lỗi khi mở."
   ],
   "mandatory": false
 }
