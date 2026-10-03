@@ -1,13 +1,15 @@
 {
-  "version": "1.3.3",
-  "released": "2026-09-30",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.3.3.exe",
-  "sha256": "f9b70e71dc69d675083beca414e194e4e48a8f51a761e975e5eca2d3a88727e2",
-  "size": 79370569,
+  "version": "1.4.1",
+  "released": "2026-10-03",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.4.1.exe",
+  "sha256": "6648944e0449e4d0e417237628623624869507f04aacaf81edc3c61aa00f2d2d",
+  "size": 79325955,
   "notes": [
-    "Sửa lỗi tab Boss Hoàng Kim nhận nhầm thông báo hạt Huy Hoàng thành một boss tên \"đã\", khiến nhiều dòng thông báo thường bị tính thành boss xuất hiện hoặc bị giết. Bản này tự bỏ qua cái tên nhầm đó, không cần sửa tay.",
-    "Người trong danh sách Bang có tên kiểu O_____L_____Ó (nhiều gạch, dấu lặp) không còn bị bộ lọc rác bỏ qua: Quả, Voucher, Điểm Danh của họ được ghi nhận bình thường. Người ngoài bang tên kiểu đó vẫn bị bỏ.",
-    "Công cụ phát hành giữ lại file cài của bản đang phát cho tới khi bản mới sẵn sàng, tránh lỗi \"Không tải được\" khi bấm Cập nhật ngay đúng lúc đang phát hành."
+    "Hệ thống key chuyển sang máy chủ mới, nhanh và ổn định hơn. Không phải nhập lại key: máy đang dùng được cập nhật xong là vào thẳng.",
+    "Gia hạn, khoá hay mở khoá có hiệu lực trong tối đa 3 phút. Mất mạng tạm thời thì app vẫn chạy tiếp, không bị đẩy ra.",
+    "Lần đầu mở bản này sẽ hiện Điều khoản sử dụng, bấm đồng ý một lần là xong.",
+    "Dòng hạn sử dụng trên cửa sổ hiện rõ ngày giờ hết hạn và thời gian còn lại.",
+    "Bỏ tab 📋 Điểm Danh. Chức năng điểm danh nay nằm ở bản Bang Hội Plus; cần dùng thì liên hệ Zalo 0982 0135 94. Dữ liệu điểm danh cũ trên máy vẫn được giữ nguyên."
   ],
   "mandatory": false
 }
