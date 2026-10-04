@@ -1,17 +1,12 @@
 {
-  "version": "1.5.1",
+  "version": "1.5.2",
   "released": "2026-10-04",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.1.exe",
-  "sha256": "949b62fd0ed359be17118069baf71796c62f441dc85be62d74e7e8d9f8ed4b1f",
-  "size": 79583123,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.2.exe",
+  "sha256": "2ab240fdc31c2876324c12c73ef3ed51dad8565bccde19696c2c6b7eb9ee3c17",
+  "size": 79688509,
   "notes": [
-    "Chọn được MuMu và MEmu, không chỉ LDPlayer: nút 🖥 Chọn máy ảo liệt kê cả máy MuMu / MEmu đang chạy (có báo đã bật Quyền root chưa). Máy MuMu phải bật Quyền root trong cài đặt của máy đó. Ai đang dùng LDPlayer không phải chọn lại.",
-    "Chạy LDPlayer cùng MuMu trên một máy không còn bị bắt nhầm sang máy MuMu.",
-    "Nút 👥 Danh sách bang chuyển lên thanh trên cùng, kèm số thành viên.",
-    "Tự cập nhật danh sách bang: 👥 Danh sách bang → 🖥 Chọn máy tự đồng bộ → chọn máy có acc đang ở trong bang và đang vào game. App tự hỏi danh sách và nhật ký bang 5 phút một lần (thêm lúc 11:58 và 19:28), không cần mở cửa sổ Bang Hội. Máy này có thể trùng hoặc khác máy đang check boss.",
-    "Danh sách bang có hiệu lực theo giờ: mỗi lần Lưu (hoặc tự cập nhật) ghi một mốc, người vào bang không bị tính quả nhặt trước lúc vào, người rời bang vẫn giữ quả của thời gian còn trong bang. Xem và sửa giờ các mốc ở 🕘 Các lần Lưu trong hộp danh sách bang.",
-    "Hộp danh sách bang có nút 🎮 Lấy từ game: mở cửa sổ Bang Hội trong game là app lấy đủ tên và cấp cả bang, sao chép hoặc xuất Excel được.",
-    "Lưu ý: đã chọn MuMu / MEmu thì đừng quay về bản 1.4.1 trở xuống — bản cũ không đọc được lựa chọn này và sẽ lỗi khi mở."
+    "Thêm lại tab 📋 Điểm Danh theo yêu cầu của khách. Dữ liệu điểm danh cũ trên máy vẫn còn nguyên, mở lên là thấy.",
+    "Điểm Danh dùng chung 👥 Danh sách bang với tab Quả, kể cả khi bật tự cập nhật danh sách bang: người vào bang chỉ được tính từ lúc vào, người đã rời vẫn giữ các lần điểm danh lúc còn trong bang."
   ],
   "mandatory": false
 }
