@@ -1,12 +1,12 @@
 {
-  "version": "1.5.2",
-  "released": "2026-10-04",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.2.exe",
-  "sha256": "2ab240fdc31c2876324c12c73ef3ed51dad8565bccde19696c2c6b7eb9ee3c17",
-  "size": 79688509,
+  "version": "1.5.4",
+  "released": "2026-10-17",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.4.exe",
+  "sha256": "4ba300ba947828acabc06f126d23989df3922581bbb188ef53185a086f6812c1",
+  "size": 79699801,
   "notes": [
-    "Thêm lại tab 📋 Điểm Danh theo yêu cầu của khách. Dữ liệu điểm danh cũ trên máy vẫn còn nguyên, mở lên là thấy.",
-    "Điểm Danh dùng chung 👥 Danh sách bang với tab Quả, kể cả khi bật tự cập nhật danh sách bang: người vào bang chỉ được tính từ lúc vào, người đã rời vẫn giữ các lần điểm danh lúc còn trong bang."
+    "Boss HK: nhấp đúp vào ô toạ độ boss để ghi chú ngắn (ví dụ \"gần\" hoặc ký hiệu riêng). Ghi chú hiện chữ xanh lá ngay dưới toạ độ, không ảnh hưởng bộ lọc và không mất khi cập nhật app. Để trống là xoá.",
+    "Đổi tên và thứ tự tab: 👹 Boss HK · 🚢 Boss PLD · 🌟 Quả · 📋 Điểm Danh · 🏆 Voucher."
   ],
   "mandatory": false
 }
