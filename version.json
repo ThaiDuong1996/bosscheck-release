@@ -1,12 +1,16 @@
 {
-  "version": "1.5.5",
-  "released": "2026-10-17",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.5.exe",
-  "sha256": "f054529c551fcf8ecae8a482365a977c801af4e356899a1bdd0a71f377e638f1",
-  "size": 79699481,
+  "version": "1.5.6",
+  "released": "2026-10-18",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/bosscheck-release/tai-ve/BossCheck_v1.5.6.exe",
+  "sha256": "e5a734a2d7dc4af04b145b380eca84c71cf54f653d0780e9611a1d576cebd715",
+  "size": 79710653,
   "notes": [
-    "Tab 🌟 Quả: file Excel xuất ra nay có cột 🌟 Hoàng Kim giống bảng trên app (ai không hái được thì để trống).",
-    "Google Sheets: bảng Top Quả thêm cột 🌟 Hoàng Kim. Muốn có cột này, bấm ⚙ G-Sheets → sao chép mã Apps Script mới, dán đè vào Google rồi vào Triển khai → Quản lý các bản triển khai → ✏️ → Phiên bản mới → Triển khai (giữ nguyên URL, không tạo bản triển khai mới)."
+    "Tab 📋 Điểm Danh làm mới theo ca: chọn ngày và ca (Quả trưa · Quả tối · Boss · Phong Lăng Độ), bấm 📋 Điểm danh ca này hoặc bật 🔁 Tự chụp 10 giây cho cả ca. Bảng gộp đếm số lần điểm danh của từng người trong bang; nhấp đúp một lần chụp để xem ai có mặt lúc đó. Xuất Excel theo ca.",
+    "App tự hỏi tên những người đã đứng sẵn quanh nhân vật từ trước lúc bấm ▶, không cần ai chạy ra xa rồi quay lại. Không còn đếm nhầm NPC hay thú cưỡi.",
+    "Ô 📏 Bán kính nhập cùng đơn vị với bảng auto trong game (32 = 1 ô). Để trống là không lọc, nên để trống khi đi Boss / PLD vì anh em đứng rải.",
+    "Bỏ chia Team 1 / Team 2, nút Sao chép và đồng bộ Google Sheets của tab Điểm Danh cũ. Dữ liệu điểm danh cũ không hiện ở tab mới.",
+    "App không còn đứng hình khi nhiều người hái quả hoặc nộp voucher liền nhau: dữ liệu được gom lại và lưu ở nền vài giây một lần, tắt app vẫn lưu đủ.",
+    "Ô nhập số không còn đổi giá trị khi lăn chuột; ô bằng 0 thì để trống."
   ],
   "mandatory": false
 }
